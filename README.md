@@ -9,19 +9,17 @@ Dataset: [Celeb-A](https://www.kaggle.com/jessicali9530/celeba-dataset)
 
 Training Time: ~10.5 hours on a RTX 2060 Super.
 
-The final model can be found [here](https://drive.google.com/drive/folders/1aTHugE11jdmwwKQQWI-nVFuJLYl4-2Mt?usp=sharing).
-
 ## Setting Up
 1) Create a new Python/Anaconda environment (optional but recommended). You might use the `environment.yml` file for this purpose (Skip Step-2 in that case).
 
 2) Install the necessary packages. Refer to the packages mentioned in `environment.yml`.
 
-3) Download the final model from [here](https://drive.google.com/drive/folders/1aTHugE11jdmwwKQQWI-nVFuJLYl4-2Mt?usp=sharing).
+3) The final model is located in `/final_model`.
 
 4) Download the [Celeb-A](https://www.kaggle.com/jessicali9530/celeba-dataset) dataset, and place it in the directory in the following manner:-
 <pre>
 ├─── Patched-Face-Regeneration-v2
-     ├─── final_model     
+     ├─── final_model
      ├─── feat_comp-96x96.png
      ├─── feat_comp-128x128.png
      ├─── feat_comp-160x160.png
@@ -29,8 +27,8 @@ The final model can be found [here](https://drive.google.com/drive/folders/1aTHu
      ├─── generator-128x128.png
      ├─── generator-160x160.png
      ├─── environment.yml
-     ├─── Training.ipynb    
-     └─── images 
+     ├─── Training.ipynb
+     └─── images
            └─── img_align_celeba
                ├─── 000001.jpg
                ├─── 000002.jpg
